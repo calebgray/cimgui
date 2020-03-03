@@ -107,6 +107,30 @@
       "stname": ""
     }
   ],
+  "ImGui_ImplGlfw_MonitorCallback": [
+    {
+      "args": "(GLFWmonitor* monitor,int event)",
+      "argsT": [
+        {
+          "name": "monitor",
+          "type": "GLFWmonitor*"
+        },
+        {
+          "name": "event",
+          "type": "int"
+        }
+      ],
+      "argsoriginal": "(GLFWmonitor* monitor,int event)",
+      "call_args": "(monitor,event)",
+      "cimguiname": "ImGui_ImplGlfw_MonitorCallback",
+      "defaults": [],
+      "funcname": "ImGui_ImplGlfw_MonitorCallback",
+      "ov_cimguiname": "ImGui_ImplGlfw_MonitorCallback",
+      "ret": "void",
+      "signature": "(GLFWmonitor*,int)",
+      "stname": ""
+    }
+  ],
   "ImGui_ImplGlfw_MouseButtonCallback": [
     {
       "args": "(GLFWwindow* window,int button,int action,int mods)",
@@ -469,6 +493,26 @@
       "defaults": [],
       "funcname": "ImGui_ImplSDL2_InitForD3D",
       "ov_cimguiname": "ImGui_ImplSDL2_InitForD3D",
+      "ret": "bool",
+      "signature": "(SDL_Window*)",
+      "stname": ""
+    }
+  ],
+  "ImGui_ImplSDL2_InitForMetal": [
+    {
+      "args": "(SDL_Window* window)",
+      "argsT": [
+        {
+          "name": "window",
+          "type": "SDL_Window*"
+        }
+      ],
+      "argsoriginal": "(SDL_Window* window)",
+      "call_args": "(window)",
+      "cimguiname": "ImGui_ImplSDL2_InitForMetal",
+      "defaults": [],
+      "funcname": "ImGui_ImplSDL2_InitForMetal",
+      "ov_cimguiname": "ImGui_ImplSDL2_InitForMetal",
       "ret": "bool",
       "signature": "(SDL_Window*)",
       "stname": ""
